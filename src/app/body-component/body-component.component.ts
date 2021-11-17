@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body-component.component.css']
 })
 export class BodyComponentComponent implements OnInit {
+  title:string="spandana"
 
   constructor() { }
 
