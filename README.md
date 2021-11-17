@@ -10,6 +10,16 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## About
+In the project directory, you can run:
+
+Project Name:mycalci
+
+This project is deals with building the Calculator Application using React with Redux.
+Implementing Arithmetic and Mathematical Operations.
+We have created file structure and we can find files in src folder.
+we can build components in src/components.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
