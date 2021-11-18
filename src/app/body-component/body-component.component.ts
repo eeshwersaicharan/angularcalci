@@ -91,33 +91,51 @@ import { Component, OnInit } from '@angular/core';
         
       }
       if (value === "+") {
+        if(this.state.upperdisplay.includes(value)){
+          this.state.upperdisplay=this.state.upperdisplay
+        }else{
         this.state.upperdisplay= this.state.upperdisplay + value,
         this.state.operator=value
+        }
         
      
       }
       if (value === "-") {
-        
+        if(this.state.upperdisplay.includes(value)){
+          this.state.upperdisplay=this.state.upperdisplay
+        } else {
           this.state.upperdisplay= this.state.upperdisplay + value,
           this.state.operator= value
+        }
         
       }
       if (value === "*") {
    
+        if(this.state.upperdisplay.includes(value)){
+          this.state.upperdisplay=this.state.upperdisplay
+        } else {
           this.state.upperdisplay= this.state.upperdisplay + value,
           this.state.operator= value
-       
+        }
       }
       if (value === "%") {
         
+        if(this.state.upperdisplay.includes(value)){
+          this.state.upperdisplay=this.state.upperdisplay
+        } else {
           this.state.upperdisplay= this.state.upperdisplay + value,
           this.state.operator=value
+        }
         
       }
       if (value === "/") {
        
+        if(this.state.upperdisplay.includes(value)){
+          this.state.upperdisplay=this.state.upperdisplay
+        } else {
           this.state.upperdisplay= this.state.upperdisplay + value,
           this.state.operator= value
+        }
       
       } else if (value === "c") {
         this.clear();
